@@ -37,8 +37,7 @@ const Hero = () => {
               rotation={[0,-Math.PI,0]}
               scale={ isSmall ? 0.05 : isMobile ? 0.02 : 0.022}
             />
-            <OrbitControls enableZoom={true}/>
-            </HeroCamera>
+            </HeroCamera> 
             <group>
               <ReactLogo position={isSmall ? [0.1,10, 0.18102] : isMobile ? [1, 1, 1] : isTablet ? [1, 1,0] : [3, 1, 0]}/>
                <Cube position={isSmall ? [1, -0.5, 1] : isMobile ? [1, -0.5, 1] :isTablet ? [1, 1,0] : [5, -0.9, 0]}/>
