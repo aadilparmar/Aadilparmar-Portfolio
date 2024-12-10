@@ -1,6 +1,6 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { PerspectiveCamera} from "@react-three/drei";
+import { OrbitControls, PerspectiveCamera} from "@react-three/drei";
 import HackerRoom from "../Component/HackerRoom";
 import CanvasLoader from "../Component/CanvasLoader";
 import {useMediaQuery} from "react-responsive"
@@ -37,6 +37,7 @@ const Hero = () => {
               rotation={[0,-Math.PI,0]}
               scale={ isSmall ? 0.05 : isMobile ? 0.02 : 0.022}
             />
+            <OrbitControls maxPolarAngle={Math.PI/2}/>
             </HeroCamera>
             <group>
               <ReactLogo position={isSmall ? [0.1,10, 0.18102] : isMobile ? [1, 1, 1] : isTablet ? [1, 1,0] : [3, 1, 0]}/>
