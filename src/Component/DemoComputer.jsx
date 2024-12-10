@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useGLTF, useVideoTexture} from '@react-three/drei'
+
 const DemoComputer = (props) => {
+  const group=useRef()
     const { nodes, materials } = useGLTF('/models/personal_computer.glb')
     const txt=useVideoTexture(props.texture?props.texture:'/textures/project/project1.mp4')
+
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.003}>
