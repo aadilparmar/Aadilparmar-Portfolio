@@ -94,8 +94,8 @@ const Projects = () => {
                 <directionalLight position={[10,10,5]}/>
                 <Center>
                   <Suspense fallback={<CanvasLoader/>}>
-                    <group scale={2} position={[0,-3,0]} rotation={[0,-0.1,0]}>
-                      <DemoComputer texture={currentProject.texture}/>
+                    <group scale={1.9} position={[1,-1,0]} rotation={[0,-0.1,0]}>
+                      <DemoComputer texture={currentProject.text}/>
                     </group>
                   </Suspense>
                 </Center>
