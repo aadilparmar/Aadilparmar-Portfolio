@@ -37,7 +37,7 @@ const Hero = () => {
               rotation={[0,-Math.PI,0]}
               scale={ isSmall ? 0.05 : isMobile ? 0.02 : 0.022}
             />
-            <OrbitControls maxPolarAngle={Math.PI/2}/>
+            <OrbitControls enableZoom={true}/>
             </HeroCamera>
             <group>
               <ReactLogo position={isSmall ? [0.1,10, 0.18102] : isMobile ? [1, 1, 1] : isTablet ? [1, 1,0] : [3, 1, 0]}/>
