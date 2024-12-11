@@ -79,11 +79,13 @@ const About = () => {
               <p className="grid-subtext mt-2">
                 I'm based in Gujarat,India with the remote work available
               </p>
+              <a href="#contact">
               <Button
                 name={"Contact Me"}
                 isBeam
                 containerClass="w-full mt-10"
               />
+              </a>        
             </div>
           </div>
         </div>
