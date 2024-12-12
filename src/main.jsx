@@ -7,6 +7,7 @@ import About from './Sections/About.jsx'
 import Projects from './Sections/Projects.jsx'
 import Clients from './Sections/Clients.jsx'
 import Contact from './Sections/Contact.jsx'
+import Footer from './Sections/Footer.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Navbar/>
@@ -14,5 +15,6 @@ createRoot(document.getElementById('root')).render(
     <About/>
     <Projects/>
     <Contact/>
+    <Footer/>
   </StrictMode>
 )
