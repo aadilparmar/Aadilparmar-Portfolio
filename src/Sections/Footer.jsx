@@ -10,13 +10,13 @@ const Footer = () => {
       </div>
       <div className="flex gap-3">
         <div className="social-icon">
-          <a href="https://github.com/aadilparmar"><img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" /></a>
+          <a href="https://github.com/aadilparmar" className="flex justify-center items-center"><img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" /></a>
         </div>
         <div className="social-icon">
-          <a href="https://www.instagram.com/aadil____2.0/profilecard/?igsh=MXB1N2FrOHYwcDExbQ%3D%3D"><img src="/assets/instagram.svg" alt="github" className="w-1/2 h-1/2 " /></a>
+          <a href="https://www.instagram.com/aadil____2.0/profilecard/?igsh=MXB1N2FrOHYwcDExbQ%3D%3D"className="flex justify-center items-center"><img src="/assets/instagram.svg" alt="github" className="w-1/2 h-1/2 " /></a>
         </div>
         <div className="social-icon">
-          <img src="/assets/twitter.svg" alt="github" className="w-1/2 h-1/2" />
+         <a href="https://x.com/AadilParma55333"className="flex justify-center items-center"> <img src="/assets/twitter.svg" alt="github" className="w-1/2 h-1/2" /></a>
         </div>
         <p className="text-white-500">©2024 Aadil Parmar All rights reserved</p>
       </div>
