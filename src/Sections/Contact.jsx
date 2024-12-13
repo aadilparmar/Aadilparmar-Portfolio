@@ -48,14 +48,14 @@ setForm({
 }
     return (
     <section className="c-space my-20"id="contact">
-      <div className="relative min-h-screen flex items-center justify-center flex-col ">
-        <img
+      <div className="relative min-h-screen flex items-center justify-center flex-col bg-white-500 rounded-xl">
+        {/* <img
           src="/assets/terminal.png"
           alt="terminal background"
-          className="absolute inset-0 min-h-screen"
-        />
-        <div className="contact-container">
-          <h3 className="head-text xl:mt-12">Contact Me</h3>
+          className="absolute inset-0 min-h-fit"
+        /> */}
+        <div className="contact-container xl:my-16">
+          <h3 className="head-text ">Contact Me</h3>
           <p className="text-lg text-white-600">
             Where you are looking to build the new website,improve your exsiting
             platform, or bring a unique project to life , I'm here to help you!.
